@@ -17,8 +17,8 @@ import neuralMath.ActivationFunction;
 
 public class TerminalInterface {
 	// constants
-	static final String TRAININGFILE = "/Users/sam/eclipse-workspace/MNIST_Neural_Network/mnist_train.csv";
-	static final String TESTINGFILE = "/Users/sam/eclipse-workspace/MNIST_Neural_Network/mnist_test.csv";
+	static final String TRAININGFILE = "mnist_train.csv";
+	static final String TESTINGFILE = "mnist_test.csv";
 	static final File SAVEFILEFOLDER = new File("Saved_Networks");	
 	static final char[] ASCIILIST = " .'^\",:;li~+-?1tfrxczXYULQZ#W&%@".toCharArray();
 	static boolean DEBUG = false;
