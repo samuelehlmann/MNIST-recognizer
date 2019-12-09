@@ -1,6 +1,9 @@
 # MNIST-recognizer
 
-I made this program for my AI class in Fall 2019. The stipulations for the assignment were that it should:
+I made this program for my AI class in Fall 2019. It implements neural networks, coded from scratch, without even an API for matrix operations. Its purpose is to recognize handwritten digits from the MNIST dataset, and to be used the training and testing sets should be downloaded from https://pjreddie.com/projects/mnist-in-csv/ and moved to the same directory as TerminalInterface.java, which is the entry point of the program. 
+
+The stipulations for the assignment were that it should:
+* be written
 * implement a neural network that had one input layer for MNIST images, one hidden layer of 15 neurons, and one output layer of 10 neurons using a sigmoid activation function
 * display the accuracy after training at each epoch
 * be able to save and load trained networks from a single file
